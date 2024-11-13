@@ -1,0 +1,60 @@
+.about-us {
+    background-color: #fff;
+    padding: 3rem 0;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.8;
+  }
+  
+  /* Estilos del equipo */
+  .team {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 40px;
+    
+  }
+  
+  .team-1 {
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .team-1:hover{
+    transform: translateY(-5px);
+  }
+  
+  .team-1 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .team-1 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .team-1 p {
+    font-size: 16px;
+    color: #777;
+  }
